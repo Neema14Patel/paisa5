@@ -1,0 +1,15 @@
+@mixin button-primary-background-red {
+    border: 1px solid $button-bg-red;
+    background-color: $button-bg-red;
+    color: $global-color-white;
+    border-radius: .25rem;
+    font-size: $font-size-13px
+}
+
+@mixin button-primary-background-white-smoke {
+    border: 1px solid $white-smoke;
+    background-color: $white-smoke;
+    color: $global-color-white;
+    border-radius: .25rem;
+    font-size: $font-size-13px
+}

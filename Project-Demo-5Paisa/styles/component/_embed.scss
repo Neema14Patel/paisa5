@@ -1,0 +1,19 @@
+.videoEmbed{
+    text-align: center;
+    padding-bottom: 5.3125rem;
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        margin-top: 3.125rem;
+        display: flex;
+        
+       
+    }
+    .videoComponent{
+        @media (min-width:20rem) and (max-width:41.6875rem){
+            width: auto;
+            margin: auto;
+           
+        }
+    }
+   
+    
+}

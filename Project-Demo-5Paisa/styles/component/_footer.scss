@@ -1,0 +1,12 @@
+.footerInfo{
+    background: $global-color-red;
+    padding: 35px 0px;
+    display: flex;
+    flex-direction: column;
+    h6{
+        color:$global-color-white;
+        margin: auto;
+        padding: .625rem 0rem;
+      
+    }
+}

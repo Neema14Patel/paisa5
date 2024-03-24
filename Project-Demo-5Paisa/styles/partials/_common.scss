@@ -1,0 +1,69 @@
+
+.container-fluid{
+    .margin-top-btm{
+        margin-top: 8.125rem;
+        margin-bottom: 5.125rem;
+        @media (min-width:20rem) and (max-width:41.6875rem){
+            margin-top: 3.125rem;
+        }
+    }
+
+}
+body{
+    overflow-x: hidden;
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        overflow-x: hidden;
+    }
+}
+.btn-bg-white-smoke{
+    background-color: $white-smoke;
+    border: $white-smoke ;
+}
+
+.btn-primary-red{
+    background-color:$button-bg-red;
+    border: $button-bg-red;
+}
+.borderRight{
+    border-right-style: dashed;
+    color: #acacac;
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        color: #f1f1f1;
+    }
+  
+}
+.borderBottom{
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        border-bottom-style: dashed;
+        color: #acacac;
+        
+    }
+}
+.greyIcon{
+    color: $dark-grey;
+    font-size: 1.25rem;
+}
+.rupessIcon{
+    color: $global-color-black;
+    font-size: xxx-large;
+}
+.hiddenDesktop{
+    display: none;
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        display: inline-block;
+        width: -webkit-fill-available;
+    }
+}
+.bgContainerblack{
+            background-color: $global-color-black;
+}
+.bgMobilewhite{
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        background-color: $global-color-white;
+    }
+}
+.hiddenMobile{
+    @media (min-width:20rem) and (max-width:41.6875rem){
+        display: none;
+    }
+}

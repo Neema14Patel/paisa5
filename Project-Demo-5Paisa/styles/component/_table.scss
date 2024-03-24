@@ -1,0 +1,55 @@
+.sectionFour{
+    background-color: $white-smoke;
+    display: flex;
+    padding-bottom: 6.25rem;
+    .cmp-title{
+        h2{
+          text-align: center;
+          margin:3.75rem 0rem;
+        }
+    }
+  
+    .saverPackInfo{
+        margin: auto !important;
+        @media (min-width:20rem) and (max-width:41.6875rem){
+          // overflow-x: auto;
+          overflow-x: auto;
+        }
+       
+        table {
+            // background-color: $white-smoke;
+            margin: auto;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          .paddingBtm40{
+            padding-bottom: 2.5rem;
+          }
+          td,
+          th {
+            // border: 30px solid $white-smoke;
+            border-top:2px solid $white-smoke;
+            border-bottom: 2px solid $white-smoke;
+            border-left: 30px solid $white-smoke;
+            border-right: 30px solid $white-smoke;
+            padding: 10px 20px;
+            color:$global-color-black ;
+            background-color:$global-color-white ;
+            text-align: left;
+          }
+         .bgGrey{
+            background-color: $white-smoke;;
+          }
+          td{
+           
+            background-color:$global-color-white ;
+            text-align: center;
+          }
+       
+    }
+   
+}
+
+
+
+  

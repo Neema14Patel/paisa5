@@ -1,0 +1,142 @@
+
+.container-fluid{
+    .row{
+        &.sectionOne{
+            .leftContainer,.rightContainer{
+                display: flex;
+                .marginauto{
+                    margin: auto !important;
+                }
+            }
+            >.leftContainer{
+                h1{
+                    font-size: xxx-large;
+                    @media (min-width:20rem) and (max-width:41.6875rem)
+                    {
+                        font-size: x-large;
+                        text-align: center;
+                    }
+                }
+                p{
+                    font-weight: $font-weight-500;
+                    font-size: 1.1rem;
+                    color: $color-grey;
+                    @media (min-width:20rem) and (max-width:41.6875rem)
+                    {
+                        // font-size: x-large;
+                        text-align: center;
+                    }
+                }
+                .investmentRs{
+                    margin: 20% 0%;
+                    .alignItems{
+                        display: flex;
+                        flex-direction: row;
+                        padding: 0rem;
+                        @media (min-width:20rem) and (max-width:41.6875rem){
+                            justify-content: center;
+                            margin: .625rem 0rem;
+                        }
+                        .icon{
+                            font-size: 3.125rem;
+                            color: $global-color-red;
+                        }
+                    }
+                 
+                    p{
+                        font-weight: $font-weight-500;
+                        font-size: x-large;
+                        color: $global-color-black;
+                        margin-bottom: 0rem;
+                        span{
+                            font-size: smaller;
+                            color: $color-grey;
+                        }
+                    }
+                }
+            }
+            >.rightContainer{
+                @media (min-width:20rem) and (max-width:41.6875rem){
+                    padding: 0rem 2.5rem;
+                }
+                >.subscriptionDetails{
+                    margin: auto !important;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    padding: 1.875rem 1.875rem;
+                  .contactNumber{
+                    width: 100%;
+                    padding: .625rem .9375rem;
+                  }
+                   .termsCondition{
+                    margin: .625rem;
+                    text-align: center;
+                   }
+                   .checkboxWhatsappUpdate{
+                    float: left;
+                    margin: .5rem .375rem;
+                   }
+                }
+            }
+        }
+       &.sectionTwo{
+        padding: 5rem 6.25rem;
+        background-color:$light-grey;
+        .investmentPricing{
+            display: flex;
+            div{
+                margin: auto;
+                p{
+                    color: $global-color-red;
+                    font-weight: $font-weight-500;
+                    font-size: large;
+                }
+                span{
+                    font-size: 5rem;
+                    color: $global-color-black;
+                }
+                h1{
+                    font-size: 1.5625rem;
+                    color: $color-grey;
+                    @media (min-width:20rem) and (max-width:41.6875rem){
+                        font-size: x-large;
+                    }
+                }
+            }
+         
+        }
+       }
+       &.sectionThree{
+        // background-color: $global-color-black;
+        // padding: 6.25rem 0px;
+        .cmp-teaser-title{
+            padding-top: .625rem;
+            padding-left: 2.25rem;
+            padding-right: 2.25rem;
+            h2{
+                text-align: center;
+                color:$global-color-white ;
+                margin-bottom: 6.875rem;
+                padding-top: 5.3125rem;
+                @media (min-width:20rem) and (max-width:41.6875rem){
+                    margin-bottom: 3.875rem;
+                    // padding: 0rem .9375rem;
+                }
+
+            }
+           
+        }
+     
+        .leftContainer{
+            display: flex;
+            padding-bottom: 5.3125rem;
+            .verticalProgressBar{
+                margin: auto;
+                @media (min-width:20rem) and (max-width:41.6875rem){
+                    padding: 0rem 3.4375rem;
+                }
+            }
+        }
+       }
+       
+    }
+}

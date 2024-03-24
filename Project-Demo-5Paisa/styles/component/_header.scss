@@ -1,0 +1,58 @@
+.container-fluid {
+    padding: 0px;
+    .primaryHeader {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1rem 1.5625rem;
+        >.container-fluid{
+            ul {
+                position: relative;
+                .companylogo {
+                    position: absolute;
+                    top: -10px;
+                    @media (min-width:20rem) and (max-width:41.6875rem){
+                        position: unset;
+                    }
+                    img {
+                        width: 6rem;
+                        @media (min-width:20rem) and (max-width:41.6875rem){
+                            width: 7rem;
+                        }
+                    }
+                }
+                li{
+                    a{
+                        color: $color-grey;
+                    }
+                }
+                .marginLeft{
+                    margin-left: 9.375rem;
+                    @media (min-width:20rem) and (max-width:41.6875rem){
+                        margin-left: 0rem;
+                    }
+                }
+            }
+            ul{
+                li{
+                    a:active:visited:hover{
+                        color: red;
+                    }
+                }
+               
+            }
+            .navbar-toggler{
+                background-color: $global-color-red;
+            }
+          
+        }
+        .menuFloatRight {
+            margin-right: 0rem !important;
+            .d-flex{
+                .searchIcon{
+                    position: relative;
+                    left: -35px;
+                    top: 5px;
+                }
+            }
+        }
+    }
+}

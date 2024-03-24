@@ -1,0 +1,64 @@
+.navbar-nav {
+    &.menuFloatRight {
+        .nav-item {
+            margin: 0rem .3125rem;
+            .btn-primary {
+                &.btn-primary-red {
+                    @include button-primary-background-red;
+                    @media (min-width:20rem) and (max-width:41.6875rem){
+                        width: 100%;
+                    }
+                }
+               
+            }
+            .loginBtn{
+                @include button-primary-background-red;
+                background:none ;
+                color:$global-color-red ;
+                font-weight: $font-weight-500;
+                @media (min-width:20rem) and (max-width:41.6875rem){
+                    width: 100%;
+                    margin-bottom: .625rem;
+                }
+            }
+            .countryLanguage{
+                .dropdown-toggle{
+                    // @include button-primary-background-red;
+                    background:none ;
+                    border: none;
+                    color:$color-grey ;
+                    font-weight: $font-weight-500;
+                }
+             
+            }
+        }
+    }
+
+}
+
+.subscriptionDetails{
+    .btnGroup{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.25rem 0rem;
+        .btn-bg-white-smoke{
+            @include button-primary-background-white-smoke;
+            color: $color-grey;
+            font-weight: $font-weight-500;
+            padding: .375rem 1.25rem;
+        
+      
+      }
+    }
+  
+}
+
+.sectionOne{
+    .rightContainer{
+        .btn-primary-red{
+            @include button-primary-background-red;
+            width: 100%;
+    padding: .625rem;
+        }
+    }
+}
